@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+.container {
+    margin-top: 15px;
+    font-family:'Century Gothic','Futura','Didact Gothic',san-serif;
+}
+
+.pre-container {
+    margin-top: 15px;
+}
+
+.pre-container p {
+    font-size: .9em;
+    line-height: 1.1em;
+    text-align: justify;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.contact-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item span {
+    font-size: .9em;
+}
+
+.contact-item i {
+    font-size: .9em;
+    width: 15px;
+    margin-left: 5px;
+    text-align: center;
+    color: #d11919
+}
+
+.separator {
+    margin-top: 5px;
+    border-bottom-color: #d11919;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+}
+
+.section-title {
+    font-size: 1.2em;
+    padding-left: 25px;
+    border-left-color: #d11919;
+    border-left-width: 10px;
+    border-left-style: solid;
+}
+
+.work-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.timespan  {
+    font-size: .9em;
+    color: #d11919;
+    display: block;
+    line-height: 1em;
+}
+
+.position, .degree {
+    font-size: 1.1em;
+    display: block;
+    line-height: 1.2em;
+}
+
+.company, .university {
+    font-size: 1em;
+    display: block;
+    line-height: 1.5em;
+}
+
+.work-item p {
+    font-size: .9em;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+.skill-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.skill-item {
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
+.languaje-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.languaje-container span {
+    font-size: .9em;
+    line-height: 1.1em;
+    width: 100%;
+}
+
+.interest-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.interest-container span {
+    font-size: .9em;
+    line-height: 1.5em;
+    margin-right: 5px;
+}
